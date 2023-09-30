@@ -1,4 +1,4 @@
-# Project: Movie Recommender System Using Machine Learning!
+# Project: Movie-Recommendation-System
 
 <img src="demo/6.jpeg" alt="workflow" width="70%">
 
@@ -55,18 +55,6 @@ The purpose of a recommendation system basically is to search for content that w
 # About this project:
 
 This is a streamlit web application that can recommend various kinds of similar movies based on an user interest.
-here is a demo,
-
-* [Click here to run it live on server](https://movie-recommeder-system.herokuapp.com/)
-
-
-# Demo:
-
-<img src="demo/1.png" alt="workflow" width="70%">
-
-<img src="demo/2.png" alt="workflow" width="70%">
-
-<img src="demo/3.png" alt="workflow" width="70%">
 
 
 # Dataset has been used:
@@ -83,48 +71,3 @@ here is a demo,
 
 4 . It will be a value between [0,1]. If it is 0 then both vectors are complete different. But in the place of that if it is 1, It will be completely similar.
 
-5 . For more details , check URL : https://www.learndatasci.com/glossary/cosine-similarity/
-
-# How to run?
-### STEPS:
-
-Clone the repository
-
-```bash
-https://github.com/entbappy/Movie-Recommender-System-Using-Machine-Learning.git
-```
-### STEP 01- Create a conda environment after opening the repository
-
-```bash
-conda create -n movie python=3.7.10 -y
-```
-
-```bash
-conda activate movie
-```
-
-
-### STEP 02- install the requirements
-```bash
-pip install -r requirements.txt
-```
-
-
-```bash
-#run this file to generate the models
-
-Movie Recommender System Data Analysis.ipynb
-```
-
-Now run,
-```bash
-streamlit run app.py
-```
-
-
-```bash
-Author: Bappy Ahmed
-Data Scientist
-Email: entbappy73@gmail.com
-
-```
